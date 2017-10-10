@@ -16,6 +16,6 @@ client.on('message', msg => {
 });
 client.on('message', msg => {
     if (msg.content === '+help') {
-        msg.channel.send('There is one command. +cat. @Dafydd_someone')
+        msg.channel.send('There is one command. +cat. @yeahimdaf')
 }});
 client.login('Token here')
