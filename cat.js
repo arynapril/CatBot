@@ -12,10 +12,8 @@ client.on('message', msg => {
         msg.channel.send("Here you go", {
             file: "download.jpg"
         });
+    } else if (msg.content === '+help') {
+        msg.channel.send('There is one command. +cat. @yeahimdaf')
     }
 });
-client.on('message', msg => {
-    if (msg.content === '+help') {
-        msg.channel.send('There is one command. +cat. @yeahimdaf')
-}});
 client.login('Token here')
